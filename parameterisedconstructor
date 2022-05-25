@@ -1,0 +1,29 @@
+using System;
+namespace ParameterizedConstructorExample
+{
+
+    class Gaurab
+    {
+
+        
+        String name;
+        int id;
+
+       
+        Gaurab(String name, int id)
+        {
+            this.name = name;
+            this.id = id;
+        }
+
+        
+        public static void Main()
+        {
+
+        
+            Gaurab gau1 = new Gaurab("GFG", 1);
+            Console.WriteLine("GeekName = " + gau1.name +
+                             " and GeekId = " + gau1.id);
+        }
+    }
+}
