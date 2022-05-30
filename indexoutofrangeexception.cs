@@ -24,11 +24,7 @@ namespace labreport {
                 Console.WriteLine("Array's range is exceede...");
                 Console.WriteLine(ex.Message);
             }
-            foreach (int i in arr)
-            {
-                Console.WriteLine(i);
-                
-            }
+   
             Console.ReadKey();
         }
 
