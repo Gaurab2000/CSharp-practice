@@ -1,0 +1,21 @@
+using System;
+namespace labreport {
+    public delegate void SimpleDelegate();
+    class DelegateTest
+    {
+        static void Main(string[] args)
+        {
+            SimpleDelegate d = new SimpleDelegate(MyFunc);
+            d();
+            Console.ReadKey();
+
+
+        }
+        public static void MyFunc()
+        {
+            Console.WriteLine("I was called by delegate");
+        }
+
+    }
+   
+}
