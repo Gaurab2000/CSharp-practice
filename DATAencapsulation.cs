@@ -1,6 +1,6 @@
 ﻿using System;
 public class DemoEncap
-{
+ {
     private String studentName;
     private int studentAge;
 
