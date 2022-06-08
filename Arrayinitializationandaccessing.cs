@@ -3,7 +3,7 @@ namespace geeksforgeeks {
       
 class GFG {
       
-    // Main Method
+    // Mainmethod
     public static void Main()
     {
           
